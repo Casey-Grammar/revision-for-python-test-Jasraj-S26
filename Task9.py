@@ -5,8 +5,9 @@
 
 def main():
     #Write your code here
-    
-
+    cats = input('Cats: ')
+    cats_name = cats.split()
+    print('You have ' + str(len(cats_name)) + ' cats.')
 
 
     # End of your code here
