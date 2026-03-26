@@ -15,9 +15,12 @@
 
 def main():
     #Write your code here
-    
+    name = input('First and Last Name? ')
+    first_name = name.split()[0]
+    last_name = name.split()[1]
+    call_sign = first_name[:2] + last_name[-4:]
 
-
+    print('The new call sign is: ' + call_sign)
     # End of your code here
 
 
